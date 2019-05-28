@@ -1,17 +1,19 @@
+package connectedisland
+
 fun main() {
     val islands = generateIslands()
-//    calculateLargestIsland(4,4,islands)
-    val largestIsland = getLargestIsland(islands)
-    println("largest island is ${largestIsland}")
+    val numberOfIsland = getNumberOfIsland(islands)
+    println("number of island is ${numberOfIsland}")
 }
 
-fun getLargestIsland(islands: MutableList<MutableList<Int>>): Int {
+fun getNumberOfIsland(islands: MutableList<MutableList<Int>>): Int {
     var largestIsland = 0
     for ( row in 0 until  islands.size ){
         val rowIslands = islands[row]
         for ( col in 0 until rowIslands.size ){
             if ( rowIslands[col] == 1 ){
-                largestIsland = Math.max(calculateLargestIsland(row,col, islands), largestIsland)
+                calculateNumberOfIsland(row,col, islands)
+                largestIsland++
             }
         }
         println()
@@ -19,7 +21,7 @@ fun getLargestIsland(islands: MutableList<MutableList<Int>>): Int {
     return largestIsland
 }
 
-fun calculateLargestIsland(row: Int, col: Int, islands: MutableList<MutableList<Int>>): Int {
+fun calculateNumberOfIsland(row: Int, col: Int, islands: MutableList<MutableList<Int>>): Int {
     if ( row < 0 || row >= islands.size || col < 0 || col >= islands[row].size ){
         return 0
     }
@@ -30,7 +32,7 @@ fun calculateLargestIsland(row: Int, col: Int, islands: MutableList<MutableList<
     var size = 1
     for ( rowItr in row - 1 .. row + 1){
         for ( colItr in col - 1 .. col + 1){
-            size += calculateLargestIsland(rowItr, colItr, islands)
+            size += calculateNumberOfIsland(rowItr, colItr, islands)
         }
     }
     return size
