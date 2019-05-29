@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/heap/maxheap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heapds/notheapdetect.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/maxheap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/heapds/maxheap.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connectedisland/numberofisland.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/detectcycleingraph/detectcycleingraph.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/heap/maxheap.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/heapds/maxheap.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/heapds/notheapdetect.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -148,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/mothervertex/mothervertex.kt" />
         <option value="$PROJECT_DIR$/src/scc/scc.kt" />
         <option value="$PROJECT_DIR$/src/heap/maxheap.kt" />
+        <option value="$PROJECT_DIR$/src/heapds/maxheap.kt" />
+        <option value="$PROJECT_DIR$/src/heapds/notheapdetect.kt" />
       </list>
     </option>
   </component>
@@ -178,7 +182,7 @@
               <item name="kmpkotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kmpkotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
+              <item name="heapds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.heap.MaxheapKt">
+  <component name="RunManager" selected="Kotlin.heapds.NotheapdetectKt">
     <configuration name="LongestpathKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -239,14 +243,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heap.MaxheapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="heapds.MaxheapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="heap.MaxheapKt" />
+      <option name="MAIN_CLASS_NAME" value="heapds.MaxheapKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heapds.NotheapdetectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kmpkotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="heapds.NotheapdetectKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,26 +295,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="transitiveclosuregraph.TransitiveclosegraphKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kmpkotlin" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="transitiveclosuregraph.TransitiveclosegraphKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.heap.MaxheapKt" />
+        <item itemvalue="Kotlin.heapds.NotheapdetectKt" />
+        <item itemvalue="Kotlin.heapds.MaxheapKt" />
         <item itemvalue="Kotlin.scc.SccKt" />
         <item itemvalue="Kotlin.mothervertex.MothervertexKt" />
         <item itemvalue="Kotlin.LongestpathKt" />
-        <item itemvalue="Kotlin.transitiveclosuregraph.TransitiveclosegraphKt" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559117914756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Heap">
+      <created>1559157687102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559157687102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="convert max heap to min heap">
+      <created>1559159304351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559159304351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -389,7 +407,9 @@
     <MESSAGE value="Longest path in unidirected graph" />
     <MESSAGE value="mother vertex" />
     <MESSAGE value="Strongly Connected Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strongly Connected Component" />
+    <MESSAGE value="Heap" />
+    <MESSAGE value="convert max heap to min heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert max heap to min heap" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Driver.java" />
@@ -488,10 +508,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/heap/maxheap.kt">
+    <entry file="file://$PROJECT_DIR$/src/heapds/maxheap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heapds/notheapdetect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>

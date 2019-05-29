@@ -1,4 +1,4 @@
-package heap
+package heapds
 
 fun main() {
     val heap = mutableListOf(0, 2, 1, 4, 3, 5, 7, 6)
