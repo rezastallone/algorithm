@@ -1,15 +1,18 @@
 package heap
 
 fun main() {
-    val heap = mutableListOf(0, 1, 2, 3, 4, 5, 6, 7)
+    val heap = mutableListOf(0, 2, 1, 4, 3, 5, 7, 6)
     for (i in heap.size / 2 downTo 1) {
         maxHeapify(heap, i)
     }
-    increaseValue(heap, 7, 1000)
-    increaseValue(heap, 6, 100)
-    increaseValue(heap, 5, 10)
-    addValue(heap,69 )
-    addValue(heap,55 )
+//    for (i in heap.size / 2 until heap.size) {
+//        minHeapify(heap, i)
+//    }
+//    increaseValue(heap, 7, 1000)
+//    increaseValue(heap, 6, 100)
+//    increaseValue(heap, 5, 10)
+//    addValue(heap,69 )
+//    addValue(heap,55 )
     for ( i in 1 until heap.size ){
         println(extractMax(heap))
     }
@@ -42,6 +45,14 @@ fun extractMax(heap: MutableList<Int>): Int {
     return max
 }
 
+fun extractMin(heap: MutableList<Int>): Int {
+    val max = heap[1]
+    heap[1] = heap[heap.size - 1]
+    heap.removeAt(heap.size - 1)
+    minHeapify(heap, 1)
+    return max
+}
+
 fun maxHeapify(heap: MutableList<Int>, i: Int) {
     var largest = i
     val right = i * 2 + 1
@@ -57,6 +68,24 @@ fun maxHeapify(heap: MutableList<Int>, i: Int) {
     if (largest != i) {
         swap(heap, i, largest)
         maxHeapify(heap, largest)
+    }
+}
+
+fun minHeapify(heap: MutableList<Int>, i: Int) {
+    var smallest = i
+    val right = i * 2 + 1
+    val left = i * 2
+    if (left < heap.size && heap[i] > heap[left]) {
+        smallest = left
+    }
+
+    if (right < heap.size && heap[smallest] > heap[right]) {
+        smallest = right
+    }
+
+    if (smallest != i) {
+        swap(heap, i, smallest)
+        minHeapify(heap, smallest)
     }
 }
 
