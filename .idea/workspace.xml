@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/heapds/mergemsortedarray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/permutate.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mothervertex/mothervertex.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scc/scc.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/heapds/mergemsortedarray.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/permutate.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -153,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/heapds/largestkthelement.kt" />
         <option value="$PROJECT_DIR$/src/heapds/sortksortedarray.kt" />
         <option value="$PROJECT_DIR$/src/heapds/mergemsortedarray.kt" />
+        <option value="$PROJECT_DIR$/src/string/permutate.kt" />
       </list>
     </option>
   </component>
@@ -183,7 +185,7 @@
               <item name="kmpkotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="kmpkotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="heapds" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.heapds.MergemsortedarrayKt">
+  <component name="RunManager" selected="Kotlin.string.PermutateKt">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -239,19 +241,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="heapds.LargestkthelementKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="heapds.MaxheapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kmpkotlin" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="heapds.MaxheapKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -296,13 +285,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.PermutateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kmpkotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.PermutateKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.PermutateKt" />
         <item itemvalue="Kotlin.heapds.MergemsortedarrayKt" />
         <item itemvalue="Kotlin.heapds.SortksortedarrayKt" />
         <item itemvalue="Kotlin.heapds.LargestkthelementKt" />
         <item itemvalue="Kotlin.heapds.NotheapdetectKt" />
-        <item itemvalue="Kotlin.heapds.MaxheapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559243784418</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge M Sorted Array">
+      <created>1559256495259</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559256495259</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -434,7 +443,8 @@
     <MESSAGE value="heap detection" />
     <MESSAGE value="Largest Kth Element" />
     <MESSAGE value="Sort K sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort K sorted array" />
+    <MESSAGE value="Merge M Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge M Sorted Array" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Driver.java" />
@@ -565,6 +575,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/permutate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
