@@ -54,7 +54,7 @@
 //    println("recieved $n1 $n2, content are : ")
 //    for (col in patternMatrix) {
 //        for (row in col) {
-//            print(row)
+//            convertToIntListOrNull(row)
 //        }
 //        println()
 //    }

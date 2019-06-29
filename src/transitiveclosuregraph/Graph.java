@@ -1,4 +1,4 @@
-package transitiveclosuregraph;// JAVA program to print transitive
+package transitiveclosuregraph;// JAVA program to convertToIntListOrNull transitive
 // closure of a graph. 
 
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ public class Graph {
     public void transitiveClosure() {
 
         // Call the recursive helper 
-        // function to print DFS 
+        // function to convertToIntListOrNull DFS
         // traversal starting from all 
         // vertices one by one 
         for (int i = 0; i < vertices; i++) {

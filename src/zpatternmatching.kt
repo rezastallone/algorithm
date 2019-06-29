@@ -1,5 +1,5 @@
 fun main() {
-    val text = "aaabcxyzaaaabczaaczabbaaaaaabc"
+    val text = "aaabcxyzaaaabczaaczabbaaaaaabcxyzaaaabczaaaabcxyza"
     val pattern = "aaabc"
 
     val textToSearch = "$pattern$$text"
