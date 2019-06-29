@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/GeneratePermutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/permutationofpalindrom.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/GeneratePermutation.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/permutationofpalindrom.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -59,15 +67,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/CompatibleString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -139,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/zalgojava.java" />
         <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/dfs.kt" />
@@ -190,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/string/replacespace.kt" />
         <option value="$PROJECT_DIR$/src/string/IsStringPermutation.kt" />
         <option value="$PROJECT_DIR$/src/string/GeneratePermutation.kt" />
+        <option value="$PROJECT_DIR$/src/string/permutationofpalindrom.kt" />
       </list>
     </option>
   </component>
@@ -309,14 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.string.GeneratePermutationKt">
-    <configuration name="MinumumDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinumumDiff" />
-      <module name="kmpkotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.string.PermutationofpalindromKt">
     <configuration name="knapsackproblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="knapsackproblem" />
       <module name="kmpkotlin" />
@@ -376,13 +368,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.PermutationofpalindromKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kmpkotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.PermutationofpalindromKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.PermutationofpalindromKt" />
         <item itemvalue="Kotlin.string.GeneratePermutationKt" />
         <item itemvalue="Kotlin.string.IsStringPermutationKt" />
         <item itemvalue="Kotlin.string.IsUniqueKt" />
         <item itemvalue="Application.knapsackproblem" />
-        <item itemvalue="Application.MinumumDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561840249627</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="string generate permutation">
+      <created>1561841171464</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561841171464</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -586,16 +598,10 @@
     <MESSAGE value="Multiple cps" />
     <MESSAGE value="Is string unique" />
     <MESSAGE value="string replace space &amp; is permutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="string replace space &amp; is permutation" />
+    <MESSAGE value="string generate permutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="string generate permutation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/largestisland/largestisland.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="66" selection-start-line="2" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/connectedisland/numberofisland.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -946,8 +952,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/GeneratePermutation.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/permutationofpalindrom.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
