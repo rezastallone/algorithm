@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MinumumDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cartrack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commonprefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/football2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/football3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footballtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/isbst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javazalgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/knapsackproblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiplesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sampletest/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sampletest/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sampletest/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/CompatibleString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/findlargestoccuring.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IsUnique.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/ZpatternmatchingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/ZpatternmatchingKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/huntinggolum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/huntinggolum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transitiveclosuregraph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transitiveclosuregraph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zpatternmatching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/zpatternmatching.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cartrack.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -47,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javazalgo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/IsUnique.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -113,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/MinumumDiff.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="685">
-              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -144,8 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -209,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/string/CompatibleString.java" />
         <option value="$PROJECT_DIR$/src/MinumumDiff.java" />
         <option value="$PROJECT_DIR$/src/knapsackproblem.java" />
+        <option value="$PROJECT_DIR$/src/string/IsUnique.kt" />
       </list>
     </option>
   </component>
@@ -328,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.knapsackproblem">
+  <component name="RunManager" selected="Kotlin.string.IsUniqueKt">
     <configuration name="CompatibleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CompatibleString" />
       <module name="kmpkotlin" />
@@ -344,13 +325,6 @@
     </configuration>
     <configuration name="MinumumDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinumumDiff" />
-      <module name="kmpkotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="commonprefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="commonprefix" />
       <module name="kmpkotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,13 +363,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string.IsUniqueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kmpkotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.IsUniqueKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.IsUniqueKt" />
         <item itemvalue="Application.knapsackproblem" />
         <item itemvalue="Application.MinumumDiff" />
         <item itemvalue="Application.CompatibleString" />
         <item itemvalue="Kotlin.CartrackKt" />
-        <item itemvalue="Application.commonprefix" />
       </list>
     </recent_temporary>
   </component>
@@ -515,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559347561177</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Multiple cps">
+      <created>1561835311699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561835311699</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -575,7 +569,8 @@
     <MESSAGE value="repeated string" />
     <MESSAGE value="Make anagram by removing n character" />
     <MESSAGE value="2d array" />
-    <option name="LAST_COMMIT_MESSAGE" value="2d array" />
+    <MESSAGE value="Multiple cps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiple cps" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Driver.java" />
@@ -903,7 +898,7 @@
     <entry file="file://$PROJECT_DIR$/src/MinumumDiff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
-          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -911,6 +906,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/IsUnique.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
