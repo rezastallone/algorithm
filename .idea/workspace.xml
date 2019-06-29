@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/IsUnique.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IsStringPermutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/replacespace.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
     </list>
@@ -27,32 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/IsUnique.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/isbst.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/IsStringPermutation.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dfs.kt">
+        <entry file="file://$PROJECT_DIR$/src/string/replacespace.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -190,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/MinumumDiff.java" />
         <option value="$PROJECT_DIR$/src/knapsackproblem.java" />
         <option value="$PROJECT_DIR$/src/string/IsUnique.kt" />
+        <option value="$PROJECT_DIR$/src/string/replacespace.kt" />
+        <option value="$PROJECT_DIR$/src/string/IsStringPermutation.kt" />
       </list>
     </option>
   </component>
@@ -309,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.string.IsUniqueKt">
+  <component name="RunManager" selected="Kotlin.string.IsStringPermutationKt">
     <configuration name="CompatibleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CompatibleString" />
       <module name="kmpkotlin" />
@@ -337,19 +337,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartrackKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kmpkotlin" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="CartrackKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -358,6 +345,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string.IsStringPermutationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kmpkotlin" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="string.IsStringPermutationKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,11 +378,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.string.IsStringPermutationKt" />
         <item itemvalue="Kotlin.string.IsUniqueKt" />
         <item itemvalue="Application.knapsackproblem" />
         <item itemvalue="Application.MinumumDiff" />
         <item itemvalue="Application.CompatibleString" />
-        <item itemvalue="Kotlin.CartrackKt" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561835311699</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Is string unique">
+      <created>1561836202921</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561836202921</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -570,10 +577,10 @@
     <MESSAGE value="Make anagram by removing n character" />
     <MESSAGE value="2d array" />
     <MESSAGE value="Multiple cps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple cps" />
+    <MESSAGE value="Is string unique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Is string unique" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Driver.java" />
     <entry file="file://$PROJECT_DIR$/src/ZAlgorithm.java" />
     <entry file="file://$PROJECT_DIR$/src/largestisland/largestisland.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -911,8 +918,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/IsUnique.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/replacespace.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/IsStringPermutation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
