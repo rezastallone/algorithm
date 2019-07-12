@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2203ea-8390-43c4-9809-eb2ca632c4d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprog/nsteps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprog/robotstep.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kmpkotlin/META-INF/kmpkotlin.kotlin_module" afterDir="false" />
     </list>
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string/IsUnique.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/IsStringPermutation.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprog/nsteps.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="148">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicprog/robotstep.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/largestisland.kt" />
         <option value="$PROJECT_DIR$/src/numberofisland.kt" />
         <option value="$PROJECT_DIR$/src/connectedisland/numberofisland.kt" />
         <option value="$PROJECT_DIR$/src/detectcycleingraph/detectcycleingraph.kt" />
@@ -182,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/string/oneaway.kt" />
         <option value="$PROJECT_DIR$/src/string/matrixrotation.kt" />
         <option value="$PROJECT_DIR$/src/dynamicprog/nsteps.kt" />
+        <option value="$PROJECT_DIR$/src/dynamicprog/robotstep.kt" />
       </list>
     </option>
   </component>
@@ -247,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.dynamicprog.NstepsKt">
+  <component name="RunManager" selected="Kotlin.dynamicprog.RobotstepKt">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -274,14 +274,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="string.GeneratePermutationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicprog.RobotstepKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kmpkotlin" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="string.GeneratePermutationKt" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprog.RobotstepKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -328,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.dynamicprog.RobotstepKt" />
         <item itemvalue="Kotlin.dynamicprog.NstepsKt" />
         <item itemvalue="Kotlin.string.MatrixrotationKt" />
         <item itemvalue="Kotlin.string.OneawayKt" />
         <item itemvalue="Kotlin.string.PermutationofpalindromKt" />
-        <item itemvalue="Kotlin.string.GeneratePermutationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561844175079</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="n steps">
+      <created>1561996513093</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561996513093</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -560,16 +567,10 @@
     <MESSAGE value="string generate permutation" />
     <MESSAGE value="permutation of a palindrom" />
     <MESSAGE value="String one edit away" />
-    <option name="LAST_COMMIT_MESSAGE" value="String one edit away" />
+    <MESSAGE value="n steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="n steps" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mothervertex/mothervertex.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/heapds/notheapdetect.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -920,8 +921,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprog/nsteps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="148">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprog/robotstep.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
