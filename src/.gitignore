@@ -1,0 +1,19 @@
+#ignore all properties file
+*.properties
+
+#but track exception.properties
+!exception.properties
+
+#ignore todo file in directory
+/TODO
+
+!skillmatrix.txt
+
+#ignore all file under generated
+generated/
+
+#ignore todo in direct child directory
+doc/*.txt
+
+#ignore .txt in lain-lain and its subdirectory
+lain_lain/**/*.txt

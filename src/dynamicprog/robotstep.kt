@@ -10,7 +10,7 @@ val grid = arrayOf(
 )
 
 fun main() {
-    println("Found path ${findPath(0, 0)}")
+    println("Found path aholeholehoelpath ${findPath(0, 0)}")
 }
 
 fun findPath(xLoc: Int, yLoc: Int): Boolean {
