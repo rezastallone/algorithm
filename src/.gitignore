@@ -6,6 +6,8 @@
 
 #ignore todo file in directory
 /TODO
+/.idea
+/.idea/workspace.xml
 
 !skillmatrix.txt
 
